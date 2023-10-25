@@ -1,0 +1,9 @@
+#compdef rep
+#autoload
+#autoload predict-on
+#predict-on
+
+#echo "Running for rep"
+#compadd $(_cd ~/repos/)
+compadd $(_call_program ls ls ~/repos/)
+#local service=ls

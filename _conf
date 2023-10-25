@@ -1,0 +1,8 @@
+#compdef conf
+#autoload
+
+#echo "Running for rep"
+#compadd $(_cd ~/repos/)
+compadd $(_call_program ls ls ~/.config/)
+#local service=ls
+  
