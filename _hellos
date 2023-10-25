@@ -1,3 +1,6 @@
+#compdef hellos
+#autoload
+
 #local out_lines
 #out_lines=(${(f)"$(_call_program nmcli nmcli --terse --fields NAME,UUID,DEVICE connection show --active | sed 's/:/ --  /')"})
 
