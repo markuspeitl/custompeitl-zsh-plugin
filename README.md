@@ -1,11 +1,27 @@
-clone this repo to ~/.oh-my-zsh/custom/plugins by: 
+# Custom autocomplete for zsh functions
+
+requires oh-my-zsh to be installed and plugin to be registered.
+
+holds autocomplete scripts for custom commands in path.
+
+- conf: can be used to find and edit the configuration of a program
+_conf autocompletes the command with all directories in `~/.config`
+- rep: can be used to open a repository in editor/IDE
+_conf autocompletes the command with all directories in `~/repos`
+
+--------------------
+
+## Installation
+
+clone this repo to `~/.oh-my-zsh/custom/plugins` by: 
 
 ```sh
 git clone https://github.com/markuspeitl/custompeilt-zsh-plugin ~/.oh-my-zsh/custom/plugins/custompeitl
 ```
 
-Add the plugin to zsh startup by adding 'custompeitl' to the ~/.zshrc plugins array: 
-``plugins=(custompeitl) ``
+Add the plugin to zsh startup by adding the `custompeitl` plugin   
+to the `~/.zshrc` plugins array:  
+``plugins=(custompeitl) ``  
 
 For debugging add 
 ```sh
