@@ -1,0 +1,5 @@
+#compdef sysc
+#autoload
+#autoload predict-on
+#predict-on
+compadd $(_call_program ls ls /etc/systemd/system)
